@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="MedicineBoxSized.Back" size="0.040000 0.080000"/>
+        <ImageTarget name="MedicineBoxSized.Left" size="0.040000 0.080000"/>
+        <ImageTarget name="MedicineBoxSized.Bottom" size="0.040000 0.040074"/>
+        <ImageTarget name="MedicineBoxSized.Top" size="0.040000 0.040152"/>
+        <ImageTarget name="MedicineBoxSized.Right" size="0.040000 0.080000"/>
+        <ImageTarget name="MedicineBoxSized.Front" size="0.040000 0.080000"/>
+        <MultiTarget name="MedicineBoxSized">
+            <Part name="MedicineBoxSized.Left" translation="-0.019999999552965164 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MedicineBoxSized.Right" translation="0.019999999552965164 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MedicineBoxSized.Front" translation="0 0 0.019999999552965164" rotation="AD: 1 0 0 0"/>
+            <Part name="MedicineBoxSized.Back" translation="0 0 -0.019999999552965164" rotation="AD: 0 1 0 180"/>
+            <Part name="MedicineBoxSized.Top" translation="0 0.03999999910593033 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MedicineBoxSized.Bottom" translation="0 -0.03999999910593033 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
